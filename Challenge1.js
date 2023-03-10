@@ -7,11 +7,10 @@
 
 //https://www.w3schools.com/js/js_dates.asp
 //https://www.w3schools.com/js/js_date_methods.asp
+//https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleString
 
-const date = new Date();  // 2009-11-10
+const date = new Date();
 const month = date.toLocaleString('default', { month: 'long' });
-console.log(month);
-
 
 let ageCal = (myBirthYear , futureYear) => {
     console.log(    `Your Birth Year is ${myBirthYear}
